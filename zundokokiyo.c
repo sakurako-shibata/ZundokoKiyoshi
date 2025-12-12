@@ -12,13 +12,13 @@ int main(void)
 
     while(i != KIYOSHI_SIZE)
     {
-        random = rand() % 2;                /* 0Ç©1 */
+        random = rand() % 2;                /* 0„Åã1 */
         
         if (random == 0)
         {
-            printf("ÉYÉì\n");              /* 0ÅFÉYÉì */
+            printf("„Ç∫„É≥\n");              /* 0Ôºö„Ç∫„É≥ */
         } else {
-            printf("ÉhÉR\n");              /* 1ÅFÉhÉR */
+            printf("„Éâ„Ç≥\n");              /* 1Ôºö„Éâ„Ç≥ */
         }
 
         if (kiyoshi[i] == random)
@@ -28,10 +28,10 @@ int main(void)
             i = 0;
         }
 
-        sleep(1);                           /* 1ïbë“ã@Ç≈ÇÌÇ≠ÇÌÇ≠ä¥Çïtó^ */
+        sleep(1);                           /* 1ÁßíÂæÖÊ©ü„Åß„Çè„Åè„Çè„ÅèÊÑü„Çí‰ªò‰∏é */
     }
 
-    printf("ÉLÅEÉàÅEÉVÅI\n");
+    printf("„Ç≠„Éª„É®„Éª„Ç∑ÔºÅ\n");
 
 
     return 0;
